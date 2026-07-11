@@ -242,10 +242,10 @@ Weighted-average metrics on the held-out 2,760-image test set:
 
 | Model | Type | Accuracy | Precision | Recall | F1 |
 |---|---|---|---|---|---|
-| **SpectrumNet** | Lightweight custom CNN | **97.4%** | 97.4% | 97.4% | 97.4% |
-| EfficientNet | Transfer learning | 96.2% | 96.2% | 96.2% | 96.2% |
-| ResNet50 | Transfer learning | 94.7% | 94.8% | 94.7% | 94.7% |
-| SimpleCNN | Custom CNN | 93.7% | 93.8% | 93.7% | 93.7% |
+| SpectrumNet | Lightweight custom CNN | 93% | 93.5% | 93% | 93% |
+| **EfficientNet** | Transfer learning | **95.6%** | 95.6% | 95.5% | 95.6% |
+| ResNet50 | Transfer learning | 95% | 95% | 95.2% | 95.3% |
+| SimpleCNN | Custom CNN | 88.3% | 88% | 88.3% | 88.2% |
 
 The lightweight, purpose-built SpectrumNet (~1 MB) outperformed both transfer-learning backbones despite being a fraction of their size.
 
