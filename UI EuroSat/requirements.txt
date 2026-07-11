@@ -1,0 +1,5 @@
+streamlit
+numpy
+tifffile
+scikit-image
+tensorflow
